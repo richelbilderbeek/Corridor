@@ -15,7 +15,7 @@ install:
   # C++14
   - sudo apt-get install -qq g++-5
   # SDL
-  - sudo apt-get install -qq libsdl-dev
+  - sudo apt-get install -qq libsdl-dev libsdl-ttf2.0-dev
   # Codecov
   - sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-5 90
   - sudo pip install codecov
