@@ -30,7 +30,11 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 script: 
-  - g++ ucorridor.cpp -o corridor -lSDL -lSDL_ttf -lSDL_image
+  #- g++ ucorridor.cpp -o corridor -lSDL -lSDL_ttf -lSDL_image
+  - qmake
+  - make
+  - ./GameCorridor &
+  - sleep 10
   # Code coverage
   - ./get_code_cov
   - codecov
