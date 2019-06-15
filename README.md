@@ -1,5 +1,9 @@
 # Corridor
 
+Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
+---|---
+`master`|[![Build Status](https://travis-ci.org/richelbilderbeek/Corridor.svg?branch=master)](https://travis-ci.org/richelbilderbeek/Corridor)
+
 Corridor using SDL that compiles under Qt Creator
 
 The game is developed by Or Dvory, `gnudles@nana.co.il`.
