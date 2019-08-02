@@ -13,7 +13,6 @@ install:
   # OCLint
   - ./install_oclint
 
-
 services:
   - xvfb
 
@@ -31,14 +30,3 @@ script:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-
-
-
-
-
-
-
-
-
-
-
