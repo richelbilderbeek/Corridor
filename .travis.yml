@@ -9,7 +9,6 @@ install:
   # SDL
   - sudo apt-get install -qq libsdl-dev libsdl-ttf2.0-dev libsdl-image1.2-dev
   # Codecov
-  - sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-5 90
   - sudo pip install codecov
   # OCLint
   - ./install_oclint
