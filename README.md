@@ -6,7 +6,7 @@ Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)
 
 Corridor using SDL that compiles under Qt Creator
 
-The game is developed by Or Dvory, `gnudles@nana.co.il`.
+The game is developed by [@gnudles](https://github.com/gnudles) and can be downloaded directly from [@gnudles' corridor repo](https://github.com/gnudles/corridor)
 
 All I, @richelbilderbeek did, was:
  * get it to compile in Qt Creator
